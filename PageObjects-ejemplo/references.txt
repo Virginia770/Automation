@@ -1,0 +1,3 @@
+https://gist.github.com/thiagofelix/a5132f2c97f55518b1ed#file-angular-page-js
+
+https://angular.github.io/protractor/#/page-objects

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://23.21.52.29:8084/Account/LogOn?ReturnUrl=%252f" />
+<title>AddDressing_Negative3</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">AddDressing_Negative3</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/Account/LogOn?ReturnUrl=%2f</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=UserName</td>
+	<td>cecil</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Password</td>
+	<td>PWS@30</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=login_button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Ochoa, Clay S.</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=View Assessments</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Add Dressing</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=Qty</td>
+	<td>1</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=lstDressingShape</td>
+	<td>label=Select Shape</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=lstDressingDayFrequency</td>
+	<td>label=Change every 3 days</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=SaveId</td>
+	<td></td>
+</tr>
+<tr>
+	<td>store</td>
+	<td>SaveId</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyElementPresent</td>
+	<td>id=shapeRequiredError</td>
+	<td>The Shape field is required.</td>
+</tr>
+</tbody></table>
+</body>
+</html>
